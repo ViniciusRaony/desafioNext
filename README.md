@@ -28,22 +28,9 @@ Qualquer banco de dados com compatibilidade com o [SQLAchelmy](https://sqlalchem
 
 ### Rodando o Back End (servidor)
 
-- Clone esse repositório:
-
-  ```$ git clone <https://github.com/next-cesar-school/next20221-t11-envio-automatizado-mensagem.git>```
-
 - Crie uma variável de ambiente para criação do Banco de Dados: 
 
   ```DATABASE_URL = mysql://login:senha@localhost:3306/nomeDoBancoDeDados (Exemplo com MySQL)```
-
-- Instale as dependências:
-
-  ```$ pip install -r requirements.txt```
-
-- Execute a aplicação:
- 
-  ```$ python3 app.py```
-
 
 ### Rotas da API
 
@@ -58,6 +45,6 @@ Qualquer banco de dados com compatibilidade com o [SQLAchelmy](https://sqlalchem
 
 - Rota ```/user/id``` (método ```DELETE```): Deleta um cadastro de usuário na API baseado no ```id```
   
-- Rota ```/sendmail``` (método ```POST```): Envia um email ```pré-definido``` para os usuários cadastrados na API
+- Rota ```/sendmail``` (método ```POST```): Envia um email ```pré-definido``` para os usuários cadastrados na API (TODO)
   
-- Rota ```/sendcustommail``` (método ```POST```): Envia um email ```personalizado (subject/message)``` para os usuários cadastrados na API
+- Rota ```/sendcustommail``` (método ```POST```): Envia um email ```personalizado (subject/message)``` para os usuários cadastrados na API (TODO)
